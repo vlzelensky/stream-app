@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+button:focus {
+  box-shadow: none !important;
+}
+
+.header {
+  background: RGB(242, 242, 242);
+  height: 70px;
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.search {
+  display: flex;
+  width: 75%;
+}
+
+.button-group {
+  width: 20%;
+}
+
+.switch-button {
+  width: 10%;
+}
